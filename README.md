@@ -1,6 +1,5 @@
 # FP-NLP: Final Project Natural Language Processing
 
-This repository contains the end-to-end development, training, and evaluation of various Large Language Models (LLMs) for a specific NLP task (likely a medical or health-related Q&A, based on the dataset names).
 
 ## Project Overview
 
@@ -10,7 +9,13 @@ This project aims to develop a reliable and safe Indonesian-language medical cha
 
 **Contributors:** - @[Fadhil](https://github.com/Yaoimng) - @[Farhan](https://github.com/farhanwew) - @[Efan](https://github.com/Aeroo11)
 
-**Key Highlights:** - **Goal:** Create an medical chatbot while minimizing hallucinations. - **Models:** Mistral, Llama 3, Sahabat AI (Gemma 2 & Llama 3), and Komodo 7B. - **Evaluation:** A dual approach using traditional metrics (BERTScore, ROUGE, BLEU) and "LLM-as-a-Judge" (GPT-4o mini) to assess relevance, safety, and hallucinations. - **Conclusion:** The fine-tuned **Komodo-7b-base** emerged as the most balanced model, delivering relevant and informative responses with minimal hallucinations compared to others.
+**Key Highlights:**
+
+- **Goal:** Create an medical chatbot while minimizing hallucinations. - 
+
+**Models:** Mistral, Llama 3, Sahabat AI (Gemma 2 & Llama 3), and Komodo 7B. - **Evaluation:** A dual approach using traditional metrics (BERTScore, ROUGE, BLEU) and "LLM-as-a-Judge" (GPT-4o mini) to assess relevance, safety, and hallucinations. 
+
+- **Conclusion:** The fine-tuned **Komodo-7b-base** emerged as the most balanced model, delivering relevant and informative responses with minimal hallucinations compared to others.
 
 ## Repository Structure
 
